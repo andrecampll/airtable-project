@@ -1,0 +1,29 @@
+{
+  "name": "airtable-timeline",
+  "version": "1.0.0",
+  "description": "Airtable Timeline",
+  "scripts": {
+    "start": "parcel src/index.html --open",
+    "lint:fix": "eslint . --ext .js,.jsx,.ts,.tsx --fix",
+    "type-check": "tsc --noEmit"
+  },
+  "dependencies": {
+    "react": "^18.0.0",
+    "react-dnd": "^16.0.1",
+    "react-dnd-html5-backend": "^16.0.1",
+    "react-dom": "^18.0.0"
+  },
+  "devDependencies": {
+    "@types/react": "^19.1.0",
+    "@types/react-dnd": "^3.0.2",
+    "@types/react-dnd-html5-backend": "^3.0.2",
+    "@types/react-dom": "^19.1.1",
+    "@typescript-eslint/eslint-plugin": "^8.29.0",
+    "@typescript-eslint/parser": "^8.29.0",
+    "eslint": "^8.57.1",
+    "eslint-plugin-react": "^7.37.5",
+    "eslint-plugin-react-hooks": "^4.6.2",
+    "parcel": "^2.0.0",
+    "typescript": "^5.8.2"
+  }
+}
